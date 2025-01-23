@@ -1,3 +1,5 @@
+/*stack overflow saved my ass if this works*/
+
 var hasTouchScreen = false;
 
 if ("maxTouchPoints" in navigator) {
