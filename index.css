@@ -91,11 +91,17 @@ body {
       margin-top: -29%;
   }
 
-  @media (orientation: portrait),
-  (max-aspect-ratio: 1/1) {
-    .rectangle, .rectangle2 {
-        width: 90%;
+  @media (orientation: portrait) {
+    .center {
+        flex-direction: column;
     }
+
+    .image {
+        margin: 20px auto; 
+        display: block;
+    }
+}
+
 
     .image {
         margin: auto;
