@@ -91,7 +91,7 @@ body {
       margin-top: -29%;
   }
 
-  @media (max-width: 768px) {
+  @media (orientation: portrait) {
     .rectangle, .rectangle2 {
         width: 90%;
     }
