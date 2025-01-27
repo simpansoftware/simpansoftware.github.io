@@ -30,7 +30,10 @@ body {
 
 
 .center {
-    text-align:center
+  display: flex;
+  align-items: center;  /* Center vertically */
+  height: 60vh; 
+  text-align:center
 }
 
 .rectangle {
@@ -140,3 +143,4 @@ a:active {
 .top {
   position: absolute;
 }
+
