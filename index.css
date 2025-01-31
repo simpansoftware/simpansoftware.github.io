@@ -93,9 +93,14 @@ body {
 
   @media (orientation: portrait),
   (max-aspect-ratio: 1/1) {
-    .rectangle, .rectangle2 {
+    .rectangle {
         width: 90%;
     }
+    
+    .rectangle2 {
+      width: 96.5%;
+      margin-bottom: 20px;
+  }
 
     .image {
         margin: auto;
@@ -105,7 +110,7 @@ body {
       margin-bottom: 20px;
   }
     .image {
-      margin: 0 auto; /* Center the image horizontally */
+      margin: 0 auto;
       display: block;
   } 
 }
