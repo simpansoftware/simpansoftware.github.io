@@ -92,7 +92,7 @@ body {
   }
 
   @media (orientation: portrait),
-  (max-aspect-ratio: 1/1) {
+  (max-aspect-ratio: 4/3) {
     .rectangle {
         width: 90%;
     }
