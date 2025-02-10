@@ -2,13 +2,19 @@ body {
   font-family: Arial, Helvetica;
   margin: 0;
   background: linear-gradient(45deg, #1eb89c, #09c228, #ee7752, #e73c7e);
-  background-size: 400%;
+  background-size: 100%;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   animation: gradient 15s ease infinite;
   overflow-x: hidden;
   overflow-y: hidden;
+  color:white;
+}
+
+h1 {
+  color: white;
+  
 }
 
 @keyframes gradient {
@@ -26,11 +32,9 @@ body {
 .centertext {
     margin: auto;
     padding: 10px;
+    text-align: center;
   }
 
-.centertext2 {
-  text-align: center;
-}
 
 
 .center {
@@ -46,6 +50,7 @@ body {
     height: auto;
     width: 55%;
     background-color: #0a78cb;
+    padding: 10px;
   }
   
   .circle {
@@ -56,33 +61,14 @@ body {
     border-radius: 14px;
   }
 
-  .topright {
-    position: fixed;
-    top:0;
-    right:0;
-  }
 
-  .topleft {
-    position: fixed; 
-    top: 0;
-    left: 0%
-}
+
     footer {
     display: flex;
     flex-direction: column;
     line-height: 40px;
   }
-  
-  .rectangle2 {
-    border-radius: 0px 0px 15px 15px;
-    margin: auto;
-    height: 5%;
-    width: 99%;
-    background-color: #0a78cb;
-    display: flex;
-    justify-content: left;
-    padding-left: 20px;
-  }
+
 
     .image {
       height: 200px;
@@ -99,11 +85,6 @@ body {
     .rectangle {
         width: 90%;
     }
-    
-    .rectangle2 {
-      width: 96.5%;
-      margin-bottom: 20px;
-  }
 
     .image {
         margin: auto;
@@ -123,10 +104,6 @@ body {
         width: 90%;
     }
     
-    .rectangle2 {
-      width: 96.5%;
-      margin-bottom: 20px;
-  }
 
     .image {
         margin: auto;
@@ -155,11 +132,11 @@ body {
 }
 
 a:link {
-  color: black;
+  color: white;
 }
 
 a:visited {
-  color: black;
+  color: white;
 }
 
 
@@ -179,7 +156,24 @@ a:active {
   color: blue;
 }
 
-.top {
-  position: absolute;
+header {
+  background-color: #0a78cb;
+  padding: 10px;
+  width: 50vw;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
 }
 
+a {
+  font-weight: bold;
+}
+
+.header {
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  position: fixed;
+  top: 0px;
+}
