@@ -40,6 +40,7 @@ body {
     border-radius: 50%;
     margin-top: 20px;
     margin-bottom: -10px;
+    border: 8px solid #e64553;
 }
 
 .navbar {
@@ -94,6 +95,7 @@ a:link {
 .projectimage {
     width: 380px;
     height: 181px;
+    border-radius: 0px 0px 15px 15px;
 }
 
 .wrapper {
