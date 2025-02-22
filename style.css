@@ -78,8 +78,8 @@ h1 {
         margin-left: 0%;
         margin: auto;
     }
-    .projectrec {
-    width: 40%;
+    .wrapper {
+        flex-direction: column;
     }
 }
 
