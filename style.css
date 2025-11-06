@@ -110,5 +110,9 @@ a:link {
     align-items: stretch;
     flex: 1;
     gap: 100px;
+}
 
+a:hover {
+    color: #cba6f7;
+    text-shadow: 0 0 5px #cba6f7;
 }
